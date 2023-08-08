@@ -1,0 +1,9 @@
+npm i eslint-config-prettier
+in eslintrc: "extends": ["next/core-web-vitals", "prettier"]
+
+npm i server-only
+
+npm install prisma @prisma/client
+npx prisma init
+npx prisma migrate dev
+npx prisma generate
