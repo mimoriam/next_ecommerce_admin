@@ -1,13 +1,10 @@
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
+import { SignOutButton, UserButton } from '@clerk/nextjs';
 
-export default function Home() {
+export default function SetupPage() {
   return (
     <main>
       <div>Hello World 2!</div>
-      <Button asChild variant="outline">
-        <Link href="/">Click</Link>
-      </Button>
+      <UserButton afterSignOutUrl="/" />
     </main>
   );
 }
