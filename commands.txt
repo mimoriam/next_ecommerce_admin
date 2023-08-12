@@ -8,6 +8,8 @@ npm i server-only
 
 npm i @clerk/nextjs
 
+npx shadcn-ui@latest add dialog
+
 npm install prisma @prisma/client
 npx prisma init
 npx prisma migrate dev
