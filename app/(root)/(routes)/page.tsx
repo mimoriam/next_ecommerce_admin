@@ -15,10 +15,5 @@ export default function SetupPage() {
     }
   }, [isOpen, onOpen]);
 
-  return (
-    <main>
-      <div>Hello World 2!</div>
-      <UserButton afterSignOutUrl="/" />
-    </main>
-  );
+  return null;
 }
