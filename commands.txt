@@ -19,3 +19,5 @@ npm install prisma @prisma/client
 npx prisma init
 npx prisma generate
 npx prisma migrate dev
+
+npm i react-hot-toast
